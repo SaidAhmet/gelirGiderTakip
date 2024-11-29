@@ -1,0 +1,37 @@
+
+
+.kutu{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    /* gap: 25px; */
+    /* justify-content: center; */
+    height: 100vh;
+}
+
+.butonBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* font-size: 500px; */
+}
+
+.butonBox button{
+    transition: ease-in 0.6s;
+    /* size: 500px; */
+    height: 75%;
+    width: 75%;
+    font-size: 45px;
+    border: 20px solid transparent;
+    /* border-color: transparent; */
+    border-radius: 150px;
+    filter: brightness(0.8);
+}
+
+.butonBox button:hover{
+    border: 20px solid red;
+    background-color: aqua;
+    filter: blur(1px);
+    filter: brightness(1.2);
+
+}
+
