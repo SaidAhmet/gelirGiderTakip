@@ -10,8 +10,40 @@
     <div class="butunGelirler">
         <label class="baslik">Bütün Gelirler</label>
     </div>
-    <div class="duzenliGelirler">
-        <label class="baslik">Düzenli Gelirler</label>
+    <div class="hesaplar">
+        <label class="baslik">Hesaplar</label>
+        <div class="hesapContain">
+            <label>
+                A Bankası Hesabım
+            </label>
+            <label>
+                25.000 TRY
+            </label>
+        </div>
+        <div class="hesapContain">
+            <label>
+                Maaş Hesabım
+            </label>
+            <label>
+                25.000 TRY
+            </label>
+        </div>
+        <div class="hesapContain">
+            <label>
+                Kart1
+            </label>
+            <label>
+                -25.000 TRY
+            </label>
+        </div>
+        <div class="hesapContain">
+            <label>
+                Nakit
+            </label>
+            <label>
+                500 TRY
+            </label>
+        </div>
     </div>
     <div class="gelirEkle">
         <label class="baslik">Gelir Ekle</label>
@@ -20,25 +52,31 @@
                 Gelir Tipi
                 <label class="altLabel1">
                     <label class="altLabel">
-                        <input type="radio">Maaş
+                        <input type="radio" name="gelirTipi">Maaş
                     </label>
                     <label class="altLabel">
-                        <input type="radio">Borç
+                        <input type="radio" name="gelirTipi">Borç
                     </label>
                     <label class="altLabel">
-                        <input type="radio">Yatırım
+                        <input type="radio" name="gelirTipi">Yatırım
                     </label>
                 </label>
 
+            </label>
+            <label class="ustHesapLabel">
+                Hesap Seçin 
+                <label>
+                    açılır menü
+                </label>
             </label>
             <label class="ustLabel">
                 Düzenli mi ?
                 <label class="altLabel1">
                     <label class="altLabel">
-                        <input type="radio">Evet
+                        <input type="radio" name="duzenlimi">Evet
                     </label>
                     <label class="altLabel">
-                        <input type="radio">Hayır
+                        <input type="radio" name="duzenlimi">Hayır
                     </label>
                 </label>
             </label>
@@ -52,6 +90,23 @@
             </label>
         <button class="gelirEkleButon">Ekle</button>
 
+        </div>
+        <div class="ekleneniGoster">
+            <label class="gosterLabel">
+                Gelir Tipi : <label>Maaş</label>
+            </label>
+            <label class="gosterLabel">
+                Düzenli mi ? : <label>Evet</label>
+            </label>
+            <label class="gosterLabel">
+                Miktarı : <label>25.000</label>
+            </label>
+            <label class="gosterLabel">
+                Tarih : <label>11.12.2024</label>
+            </label>
+        </div>
+        <div class="eklendiLabel">
+            ****Gelir Eklendi****
         </div>
     </div>
 </body>
